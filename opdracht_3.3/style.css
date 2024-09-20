@@ -1,0 +1,17 @@
+h1{
+    color: coral;
+
+}
+th{
+    text-align: left;
+}
+th{
+    color: coral;
+}
+td,th{
+    padding: 10px;
+}
+th,td {
+    
+    border-bottom: 1px solid black;
+}
