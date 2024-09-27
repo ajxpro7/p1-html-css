@@ -19,7 +19,7 @@ h3{
 }
 
 p{
-    color: #4D4D4D;
+    color: black;
 
 }
 
@@ -30,4 +30,24 @@ p{
 a{
     color: #8a2be2;
     text-decoration: none;
+}
+
+header{ width: 100%;
+    height: 25vh;
+    background-image: url(afb1.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: azure;
+}
+
+img{
+    width: 50%;
+}
+article{
+    border: 1px;
+    border-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-left-width: 20px;
+
 }
