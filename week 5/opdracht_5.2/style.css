@@ -1,0 +1,38 @@
+#b1{
+padding: 100px;
+color: blue;
+background-color: blue;
+width: 200px;
+height: 200px;
+}
+
+#b2{
+    padding: 100px;
+    color: black;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+#b3{
+    padding: 100px;
+    color: red;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+#b4{
+    padding: 100px;
+    color: green;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse wrap;
+}
