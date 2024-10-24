@@ -1,0 +1,33 @@
+nav li{
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-logo{
+    display: flex;
+    flex: 1;
+}
+
+.nav-groep{
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.nav-login{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
