@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.vierkant{
+    height: 20px; width: 20px;
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    background-color: white;
+    visibility: hidden;
+}
+
+h1{
+    color: white;
+    background-color: red;
+    padding: 30px;
+}
+
+.content1{
+    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    background-color: yellow;
+}
+
+.content2{
+    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    background-color: orange;
+}
+
+.content3{
+    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    background-color: green;
+}
+
+
+@media (max-width: 576px) {
+    
+    .vierkant{
+        visibility: visible;
+    }
+
+    h1{
+        color: white;
+        background-color: #7169b4;
+        padding: 30px;
+    }
+    
+    .content1{
+        color: white;
+        background-color: #6feef8;
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    
+    .content2{
+        color: white;
+        background-color: #c600ed;
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    
+    .content3{
+        color: white;
+        background-color: #232044;
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .paragraven{
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {
+    h1{
+        color: white;
+        background-color: #b85e73;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .content1{
+        color: white;
+        background-color: #c63644;
+    }
+    .content2{
+        color: white;
+        background-color: #6c31f7;
+    }
+    .content3{
+        color: white;
+        background-color: #0d009d;
+    }
+    .title{
+        margin-left: 10px;
+    }
+    .paragraven{
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    h1{
+        color: white;
+        background-color: red;
+        text-align: left;
+    }
+    
+    .content1{
+        background-color: yellow;
+    }
+    
+    .content2{
+        background-color: orange;
+    }
+    
+    .content3{
+        background-color: green;
+    }
+
+    .title{
+        color: black;
+    }
+
+    .paragraven{
+        color: black;
+    }
+}
